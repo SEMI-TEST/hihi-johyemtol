@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main() {
+    int num1, num2;
+
+    // 사용자로부터 두 정수 입력 받기
+    std::cout << "첫 번째 정수를 입력하세요: ";
+    std::cin >> num1;
+    std::cout << "두 번째 정수를 입력하세요: ";
+    std::cin >> num2;
+
+    // 두 정수를 비교하여 결과 출력
+    if (num1 > num2) {
+        std::cout << "더 큰 값은: " << num1 << std::endl;
+    } else if (num1 < num2) {
+        std::cout << "더 큰 값은: " << num2 << std::endl;
+    } else {
+        std::cout << "두 값이 같습니다." << std::endl;
+    }
+
+    return 0;
+}
